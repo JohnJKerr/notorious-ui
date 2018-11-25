@@ -1,0 +1,15 @@
+@import "../../_mixins.scss";
+
+.editor {
+	@include grid;
+	height: 100%;
+
+	& > div {
+		grid-column: 1 / 13;
+		grid-row: 1;
+		outline: none;
+		padding: 24px;
+		font-size: 14px;
+		line-height: 1.8em;
+	}
+}

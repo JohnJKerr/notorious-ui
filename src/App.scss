@@ -1,0 +1,19 @@
+@import "_palette.scss";
+@import "_mixins.scss";
+
+.app {
+	background-color: $knockout;
+	@include grid;
+	height: 100vh;
+	color: $lunar;
+	box-sizing: border-box;
+
+	header {
+		display: none;
+	}
+
+	main {
+		grid-column: 3 / 13;
+		grid-row: 1;
+	}
+}
